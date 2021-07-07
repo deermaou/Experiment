@@ -1,0 +1,242 @@
+body {
+    margin: 0; /*把浏览器默认的8px去掉，否则header上、左、右均会有一定的空隙*/
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: medium;
+    background-image: url(../images/container3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+table#frame {
+    margin:60px;
+    margin-top: 40px;
+    border: 15px solid hsla(0, 0%, 100%, 0.5);
+    background-clip: padding-box;
+    height: 650px;
+    background-color: rgb(106, 132, 184);
+    width:900px;
+  }
+
+table#frame div#group-0 {
+    height: 550.34px;
+  }
+
+h1{
+    text-align: center;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    color: rgb(1, 1, 65);
+    font-weight:bold;
+}
+  
+  table#frame div#group-0 table#group {
+    width: 100%;
+    margin: 0 0 2px 0;
+    border: 0 none;
+    border-collapse: collapse;
+    background-color: rgb(124, 152, 189);
+    border-spacing: 0;
+    height: 411.34px;
+  }
+  
+
+  
+  
+  table#frame table#group div#question1 {
+    margin: 0;
+    padding: 0;
+    height: 161.34px;
+  }
+  
+  table#frame
+    div#group-0
+    table#group
+    div#question1
+    table.question-wrapper {
+    width: 100%;
+    margin: 0 auto 10px auto;
+    border: 1px solid #94c3eb;
+    padding: 1px;
+    background-color: rgb(124, 152, 189);
+    height: 158px;
+    border-spacing: 0;
+  }
+  
+  table#frame
+    div#group-0
+    table#group
+    div#question1
+    table.question-wrapper
+    td#questiontext {
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(124, 152, 189);
+    text-align: left;
+    padding: 6px 10px;
+    height: 15px;
+    border: 0;
+  }
+  
+  table#frame
+    div#group-0
+    table#group
+    div#question1
+    table.question-wrapper
+    td#questiontext
+    span#asterisk {
+    color: red;
+    font-size: 9px;
+    font-family: verdana;
+    margin-right: 5px;
+  }
+  
+  table#frame
+    div#group-0
+    table#group
+    div#question1
+    table.question-wrapper
+    td#answer {
+    padding: 11px 24px 16px 37px;
+    text-align: left;
+    height: 105.9px;
+  }
+  
+  table#frame
+    div#group-0
+    table#group
+    div#question1
+    table.question-wrapper
+    td#answer
+    ul {
+    margin: 0;
+    padding: 0;
+    list-style: disc inside;
+    margin-left: 0%;
+    padding-left: 0%;
+    height: 99.47px;
+  }
+  
+  table#frame
+    div#group-0
+    table#group
+    div#question1
+    table.question-wrapper
+    td#answer
+    li {
+    display: list-item;
+    list-style-type: none;
+    text-align: left;
+    margin: 0% 0% 0.5em 0.5em;
+    height: 15.1px;
+  }
+  
+  table#frame
+    div#group-0
+    table#group
+    div#question1
+    table.question-wrapper
+    td#answer
+    li
+    input {
+    vertical-align: top !important;
+    margin: 0;
+    padding: 0;
+    margin-top: 2px;
+  }
+  
+  table#frame div#group-0 table#group div.question2 {
+    margin: 0;
+    padding: 0;
+    height: 188px;
+  }
+  
+  table#frame
+    div#group-0
+    table#group
+    div.question2
+    table.question-wrapper {
+    width: 100%;
+    margin: 10px auto 10px auto;
+    border: 1px solid #94c3eb;
+    padding: 1px;
+    background-color: rgb(124, 152, 189);
+    height: 188px;
+    border-spacing: 0;
+  }
+  
+  table#frame
+    div#group-0
+    table#group
+    div.question2
+    table.question-wrapper
+    td.questiontext {
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #bccee2;
+    text-align: left;
+    padding: 6px 10px;
+  }
+  
+  table#frame
+    div#group-0
+    table#group
+    div.question2
+    table.question-wrapper
+    td.questiontext
+    span.asterisk {
+    font-size: 9px;
+    font-family: verdana;
+    margin-right: 5px;
+  }
+  
+  table#frame
+    div#group-0
+    table#group
+    div.question2
+    table.question-wrapper
+    td.answer {
+    padding: 11px 24px 16px 37px;
+    text-align: left;
+  }
+  
+  table#frame
+    div#group-0
+    table#group
+    div.question2
+    table.question-wrapper
+    td.answer
+    p.question {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  table#frame
+    div#group-0
+    table#group
+    div.question2
+    table.question-wrapper
+    td.answer
+    p.question
+    .hide {
+    font-weight: normal;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    cursor: default;
+  }
+  
+  table#frame
+    div#group-0
+    table#group
+    div.question2
+    table.question-wrapper
+    td.answer
+    p.question
+    textarea.textarea {
+    margin-top: 10px;
+    margin-left: 1em;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }

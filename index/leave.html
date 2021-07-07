@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <title>在线留言</title>
+  <link rel="stylesheet" href="../css/leave.css" />
+</head>
+
+<body>
+  <table id='frame'>
+    <!--整个表单框架设计-->
+    <tbody>
+      <tr>
+        <td>
+          <h1>在线留言</h1>
+          <form name="limesurvey" autocomplete="off" action="/index.php?r=survey/index" method="POST">
+            <div id="group-0">
+              <input type="hidden" name="screen" id="screen" value="1280x720" />
+              <table id="group">
+                <tbody>
+                  <tr>
+                    <td>
+                      <div id="question1">
+                        <!--第一个问题区-->
+                        <table class="question-wrapper">
+                          <tr>
+                            <td id="questiontext">
+                              <span id="asterisk">*</span>你对过去的人生状态评价？<br>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td id='answer'>
+                              <!--设置选项，id不同则为单选-->
+                              <ul>
+                                <li>
+                                  <input class="radio" type="radio" value="1" name="1" id="2">
+                                  <label class="answertext">非常满意</label>
+                                </li>
+                                <li>
+                                  <input class="radio" type="radio" value="2" name="1" id="3">
+                                  <label class="answertext">满意</label>
+                                </li>
+                                <li>
+                                  <input class="radio" type="radio" value="3" name="1" id="4">
+                                  <label class="answertext">一般</label>
+                                </li>
+                                <li>
+                                  <input class="radio" type="radio" value="4" name="1" id="5">
+                                  <label class="answertext">不满意</label>
+                                </li>
+                                <li>
+                                  <input class="radio" type="radio" value="5" name="1" id="6">
+                                  <label class="answertext">非常不满意</label>
+                                </li>
+                              </ul>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                      <div class="question2">
+                        <!--第二个问题区-->
+                        <table class="question-wrapper">
+                          <tbody>
+                            <tr>
+                              <td class='questiontext'>
+                                <span class="asterisk"></span>你对未来的期许是什么？<br>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="answer">
+                                <p class="question"><label class="hide">答案</label><textarea class="textarea" name="2"
+                                    id="7" rows="5" cols="110"></textarea></p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="question2">
+                        <!--第三个问题区-->
+                        <table class="question-wrapper">
+                          <tbody>
+                            <tr>
+                              <td class='questiontext'>
+                                <span class="asterisk"></span>你希望找到一份怎样的工作？<br>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="answer">
+                                <p class="question"><label class="hide">答案</label><textarea class="textarea" name="2"
+                                    id="8" rows="5" cols="110"></textarea></p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </form>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>

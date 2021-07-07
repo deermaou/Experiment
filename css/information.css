@@ -1,0 +1,59 @@
+body {
+    margin: 0; /*把浏览器默认的8px去掉，否则header上、左、右均会有一定的空隙*/
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: medium;
+    background-image: url(../images/information.jpg);
+  }
+
+  header.top {
+    height: 65px;
+    background-image: url(../images/header1.jpg); /*，url表示路径，输入../表示回退，即从css文件夹回退到上一级文件夹*/
+    /*背景图片水平方向默认重复插入*/
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header.top h1{
+    color:rgb(139, 50, 50);
+    padding-top: 20px;
+    text-align: center;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  div#image{
+      background-image: url(../images/image1.png);
+      background-repeat: no-repeat;
+      width:130px;
+      height:140px;
+      margin-left: 50px;
+  }
+
+  table{
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+    border-spacing:0px;
+    border-collapse: collapse;
+    border:1.5px solid rgb(24, 196, 187);
+  }
+
+  td{
+    border:1.5px solid rgb(24, 196, 187);
+  }
+
+  tr:nth-child(odd){
+    background-color: rgb(225, 229, 230);
+  }
+
+  
+
+  #footer {
+    margin-top: 10px;
+    color:black;
+    text-align:       center;
+    padding:          15px;
+    font-size:        90%;
+    background-image: url(../images/header1.jpg);
+  }
